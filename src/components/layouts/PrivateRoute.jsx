@@ -4,8 +4,8 @@ import Loading from './Loading';
 const PrivateRoute = ({ children }) => {
   const { pathname } = useLocation();
 
-  const isLoading = false;
-  const email = 'test@gmail.com';
+  const isLoading = true;
+  const email = '';
 
   if (isLoading) {
     return <Loading />;
